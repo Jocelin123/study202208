@@ -1,0 +1,164 @@
+{
+  "uid" : "f8f9559906fd6e14",
+  "name" : "testcaseadd3[【类型】输入为空，给出提示信息1]",
+  "fullName" : "practice.study.study0824.testcase.test_add.Testadd#testcaseadd3",
+  "historyId" : "18aa92624d4f60baf4508a56364d1586",
+  "time" : {
+    "start" : 1661497761889,
+    "stop" : 1661497761890,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Testadd",
+    "time" : {
+      "start" : 1661497761748,
+      "stop" : 1661497761748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_xunit_setup_method_fixture_Testadd",
+    "time" : {
+      "start" : 1661497761888,
+      "stop" : 1661497761888,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：和20.93开始计算，预期应等于参数大小超出范围，打印<ExceptionInfo for raises contextmanager>",
+      "time" : {
+        "start" : 1661497761889,
+        "stop" : 1661497761889,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: '>' not supported between instances of 'str' and 'int'\n",
+      "statusTrace" : "  File \"D:\\zj\\PycharmProjects\\study202208\\practice\\study\\study0824\\testcase\\test_add.py\", line 48, in testcaseadd3\n    result = self.cal.add(x,y)\n  File \"D:\\zj\\PycharmProjects\\study202208\\script\\calculator.py\", line 4, in add\n    if a > 99 or a < -99 or b > 99 or b < -99:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1da904980bdc0ba",
+      "name" : "log",
+      "source" : "1da904980bdc0ba.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Testadd::0",
+    "time" : {
+      "start" : 1661497761912,
+      "stop" : 1661497761912,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_xunit_setup_method_fixture_Testadd::0",
+    "time" : {
+      "start" : 1661497761892,
+      "stop" : 1661497761892,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加法模块测试error"
+  }, {
+    "name" : "tag",
+    "value" : "P2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "practice.study.study0824.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BEO6NH7O"
+  }, {
+    "name" : "thread",
+    "value" : "33120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "practice.study.study0824.testcase.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'参数大小超出范围'"
+  }, {
+    "name" : "x",
+    "value" : "''"
+  }, {
+    "name" : "y",
+    "value" : "20.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "P2" ]
+  },
+  "source" : "f8f9559906fd6e14.json",
+  "parameterValues" : [ "'参数大小超出范围'", "''", "20.93" ]
+}

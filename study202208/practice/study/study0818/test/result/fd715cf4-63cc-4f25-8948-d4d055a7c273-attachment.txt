@@ -1,0 +1,5 @@
+[2022-08-16 18:45:36] [INFO] [base.py]/[line: 11]/[setup] 开始计算 
+[2022-08-16 18:45:36] [INFO] [test_div.py]/[line: 53]/[test_div3] 输入数据:99,0,预期结果：ZeroDivisionError 
+[2022-08-16 18:45:36] [ERROR] [test_div.py]/[line: 55]/[test_div3] <ExceptionInfo for raises contextmanager> 
+[2022-08-16 18:45:36] [INFO] [base.py]/[line: 13]/[teardown] 结束计算 
+[2022-08-16 18:45:36] [INFO] [base.py]/[line: 9]/[teardown_class] 结束测试 

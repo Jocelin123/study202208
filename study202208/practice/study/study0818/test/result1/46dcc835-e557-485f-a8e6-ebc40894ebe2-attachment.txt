@@ -1,0 +1,2 @@
+[2022-08-18 14:46:47] [INFO] [test_calculate.py]/[line: 25]/[test_add0] 调用计算 
+[2022-08-18 14:46:47] [INFO] [test_calculate.py]/[line: 28]/[test_add0] 断言 

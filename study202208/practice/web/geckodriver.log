@@ -1,0 +1,33 @@
+1661504758512	geckodriver	INFO	Listening on 127.0.0.1:54310
+1661504761573	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofiletuhp3c"
+1661504762199	Marionette	INFO	Marionette enabled
+1661504762204	Marionette	INFO	Listening on port 54325
+Read port: 54325
+1661504762350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofiletuhp3c\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661504777524	Marionette	INFO	Stopped listening on port 54325
+1661504799472	geckodriver	INFO	Listening on 127.0.0.1:54381
+1661504802547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofilef8SXX7"
+1661504802954	Marionette	INFO	Marionette enabled
+1661504802957	Marionette	INFO	Listening on port 54395
+Read port: 54395
+1661504803279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofilef8SXX7\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661504813592	Marionette	INFO	Stopped listening on port 54395
+[Parent 2984, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1661504938977	geckodriver	INFO	Listening on 127.0.0.1:54544
+1661504942053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileJpaFkW"
+1661504942493	Marionette	INFO	Marionette enabled
+1661504942497	Marionette	INFO	Listening on port 54566
+Read port: 54566
+1661504942828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileJpaFkW\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661504945380	Marionette	INFO	Stopped listening on port 54566
+[Parent 18436, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks

@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+      "children" : [ {
+        "name" : "testcaseadd1[【正向】2个整数相加，结果计算正确]",
+        "uid" : "4a244544930490f4",
+        "parentUid" : "755b0a31e2bda026956aa705b1a37b59",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661497761749,
+          "stop" : 1661497761750,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "1", "1" ]
+      } ],
+      "uid" : "755b0a31e2bda026956aa705b1a37b59"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ValueError: could not convert string to float: '字'",
+      "children" : [ {
+        "name" : "testcasediv[4-字-TypeError]",
+        "uid" : "c6fba5a41c0f210f",
+        "parentUid" : "48cbd845293ffd32e41aed940d1eecb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661497763960,
+          "stop" : 1661497763960,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TypeError'", "'4'", "'字'" ]
+      } ],
+      "uid" : "48cbd845293ffd32e41aed940d1eecb0"
+    }, {
+      "name" : "ValueError: could not convert string to float: '文'",
+      "children" : [ {
+        "name" : "testcasediv[文-9.3-TypeError]",
+        "uid" : "afbec4a429dff0a8",
+        "parentUid" : "aa4506fb4e120cb15607be5f19abf9de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661497765977,
+          "stop" : 1661497765977,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TypeError'", "'文'", "'9.3'" ]
+      } ],
+      "uid" : "aa4506fb4e120cb15607be5f19abf9de"
+    }, {
+      "name" : "ValueError: could not convert string to float: 'nu'",
+      "children" : [ {
+        "name" : "testcasediv[nu-0.2-TypeError]",
+        "uid" : "506b87bd16efad58",
+        "parentUid" : "492ac0bba5903c8b9b418791a36f4a17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661497768006,
+          "stop" : 1661497768006,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TypeError'", "'nu'", "'0.2'" ]
+      } ],
+      "uid" : "492ac0bba5903c8b9b418791a36f4a17"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

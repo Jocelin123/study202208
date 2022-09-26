@@ -1,0 +1,5 @@
+[32mINFO    [0m test.log_util:base.py:11 开始计算
+[32mINFO    [0m test.log_util:test_div.py:53 输入数据:99,0,预期结果：ZeroDivisionError
+[1m[31mERROR   [0m test.log_util:test_div.py:55 <ExceptionInfo for raises contextmanager>
+[32mINFO    [0m test.log_util:base.py:13 结束计算
+[32mINFO    [0m test.log_util:base.py:9 结束测试

@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: '>' not supported between instances of 'str' and 'int'",
+      "children" : [ {
+        "name" : "test_add1[文-9.3-参数大小超出范围]",
+        "uid" : "557fdfda9bc61353",
+        "parentUid" : "5445c1755ae2206884e7fd2e50be5724",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660620753118,
+          "stop" : 1660620753118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'文'", "9.3", "'参数大小超出范围'" ]
+      } ],
+      "uid" : "5445c1755ae2206884e7fd2e50be5724"
+    }, {
+      "name" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "children" : [ {
+        "name" : "test_add1[None-9.3-参数大小超出范围]",
+        "uid" : "ce0d2e0e56a4de98",
+        "parentUid" : "5d88a4954fba02de71fd4ba7043e1443",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660620753137,
+          "stop" : 1660620753137,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "9.3", "'参数大小超出范围'" ]
+      } ],
+      "uid" : "5d88a4954fba02de71fd4ba7043e1443"
+    }, {
+      "name" : "Exception: oops",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "24f935655887ea4e",
+        "parentUid" : "9ccb77682e816c39e9e1f2d796787467",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660620753158,
+          "stop" : 1660620753158,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ccb77682e816c39e9e1f2d796787467"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "test_failure",
+        "uid" : "4d923f8d721080ba",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660620753146,
+          "stop" : 1660620753146,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

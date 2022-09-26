@@ -1,0 +1,4 @@
+[32mINFO    [0m test.log_util:base.py:11 开始计算
+[32mINFO    [0m test.log_util:test_div.py:38 输入数据:4,字,预期结果：TypeError
+[1m[31mERROR   [0m test.log_util:test_div.py:40 <ExceptionInfo for raises contextmanager>
+[32mINFO    [0m test.log_util:base.py:13 结束计算

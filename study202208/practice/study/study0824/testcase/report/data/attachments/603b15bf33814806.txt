@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_add.py:22 加法计算开始
+[32mINFO    [0m root:test_add.py:25 加法模块断言

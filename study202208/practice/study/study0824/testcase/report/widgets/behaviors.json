@@ -1,0 +1,37 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "d35c3220de9775a7453a217dc496b940",
+    "name" : "加法模块测试success",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "28ae55343654c8372053f22ae50ab4e1",
+    "name" : "加法模块测试error",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "8d4f7ab11386c22b53cd3129b559e1de",
+    "name" : "加法模块测试tips",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

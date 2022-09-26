@@ -1,0 +1,12 @@
+- test: 127.0.0.1
+- language:
+   - PHP
+   - Java
+   - Python
+- book:
+   Python入门:
+    price:55.5
+    author:Lily
+   Java入门:
+    price:60
+    author:Lily#3243

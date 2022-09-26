@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "566c7839afc59a7875575e75b66dab97",
+    "name" : "practice.study.study0824.testcase",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 28
+    }
+  } ]
+}

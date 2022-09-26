@@ -1,0 +1,57 @@
+1661507459226	geckodriver	INFO	Listening on 127.0.0.1:56368
+1661507462282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileJg7rea"
+1661507462584	Marionette	INFO	Marionette enabled
+1661507462588	Marionette	INFO	Listening on port 56382
+Read port: 56382
+1661507462726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileJg7rea\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1661507471951	Marionette	INFO	Stopped listening on port 56382
+1661508678673	geckodriver	INFO	Listening on 127.0.0.1:57511
+1661508681743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofilefpBHIq"
+1661508682058	Marionette	INFO	Marionette enabled
+1661508682062	Marionette	INFO	Listening on port 57525
+Read port: 57525
+1661508682204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofilefpBHIq\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661508696683	Marionette	INFO	Stopped listening on port 57525
+[Parent 39684, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661508723983	geckodriver	INFO	Listening on 127.0.0.1:57589
+1661508727046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileeS1Lik"
+1661508727463	Marionette	INFO	Marionette enabled
+1661508727467	Marionette	INFO	Listening on port 57607
+Read port: 57607
+1661508727786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileeS1Lik\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661508742745	Marionette	INFO	Stopped listening on port 57607
+[Parent 40392, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661508752255	geckodriver	INFO	Listening on 127.0.0.1:57657
+1661508755287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileQ2vm3X"
+1661508755716	Marionette	INFO	Marionette enabled
+1661508755721	Marionette	INFO	Listening on port 57672
+Read port: 57672
+1661508756062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileQ2vm3X\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ceshiren.com."
+1661508773158	Marionette	INFO	Stopped listening on port 57672
+[Parent 38276, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

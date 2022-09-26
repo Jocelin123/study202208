@@ -1,0 +1,126 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "category_list": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "can_create_category": {
+          "type": "boolean"
+        },
+        "can_create_topic": {
+          "type": "boolean"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "color": {
+                "type": "string"
+              },
+              "text_color": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "topic_count": {
+                "type": "number"
+              },
+              "post_count": {
+                "type": "number"
+              },
+              "position": {
+                "type": "number"
+              },
+              "topic_url": {
+                "type": "string"
+              },
+              "read_restricted": {
+                "type": "boolean"
+              },
+              "permission": {
+                "type": "number"
+              },
+              "notification_level": {
+                "type": "number"
+              },
+              "topic_template": {
+                "type": "string"
+              },
+              "has_children": {
+                "type": "boolean"
+              },
+              "sort_order": {
+                "type": "string"
+              },
+              "sort_ascending": {
+                "type": "string"
+              },
+              "show_subcategory_list": {
+                "type": "string"
+              },
+              "num_featured_topics": {
+                "type": "number"
+              },
+              "default_view": {
+                "type": "string"
+              },
+              "subcategory_list_style": {
+                "type": "string"
+              },
+              "default_top_period": {
+                "type": "string"
+              },
+              "default_list_filter": {
+                "type": "string"
+              },
+              "minimum_required_tags": {
+                "type": "string"
+              },
+              "navigate_to_first_post_after_read": {
+                "type": "string"
+              },
+              "topics_day": {
+                "type": "number"
+              },
+              "topics_week": {
+                "type": "number"
+              },
+              "topics_month": {
+                "type": "number"
+              },
+              "topics_year": {
+                "type": "number"
+              },
+              "topics_all_time": {
+                "type": "number"
+              },
+              "subcategory_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "uploaded_logo": {
+                "type": "string"
+              },
+              "uploaded_background": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

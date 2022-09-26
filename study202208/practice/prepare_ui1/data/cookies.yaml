@@ -1,0 +1,26 @@
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.logined, path: /, secure: false,
+  value: 'true'}
+- {domain: .work.weixin.qq.com, httpOnly: false, name: wwrtx.cs_ind, path: /, secure: false,
+  value: ''}
+- {domain: .work.weixin.qq.com, httpOnly: false, name: wxpay.vid, path: /, secure: false,
+  value: '1688856422422932'}
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.sid, path: /, secure: false,
+  value: qE6fx79h88q6lNCYu0V79i-wmZq-7RhLVjVKsnodigB9DPDWR1-wAt_76j3lyYQi}
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.ltype, path: /, secure: false,
+  value: '1'}
+- {domain: .work.weixin.qq.com, httpOnly: false, name: wwrtx.d2st, path: /, secure: false,
+  value: a4012307}
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.refid, path: /, secure: false,
+  value: '33871117932355725'}
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.vst, path: /, secure: false,
+  value: -75O3I48l0FHMRDV6EgL1t1DPo8TH4oDG74rlEX1jXbVhyDvQ-Di_1v0U7ATkGLjbEWcnqujHNWLh1KP7ZkyUyEa3oZ7pl51l2vkVA3CoMlG9L22dnnKofKmWHAFpXPw99hsvVkeC-vs9UZobxRu8UCNdONfLoPM60J1kb3_Mt1I9E52NManweOVjjBuk7bPYELu_BV83YzrebXd2XIEueX6Pw7L-BdIpF1KOkmepAYqcIlgLgpT51kFULlaEva_L_HhJwfN_JXt3kCyLI4Obg}
+- {domain: .work.weixin.qq.com, expiry: 1693989555, httpOnly: false, name: wwrtx.c_gdpr,
+  path: /, secure: false, value: '0'}
+- {domain: .work.weixin.qq.com, httpOnly: false, name: wwrtx.vid, path: /, secure: false,
+  value: '1688856422422932'}
+- {domain: .work.weixin.qq.com, httpOnly: true, name: wwrtx.ref, path: /, secure: false,
+  value: direct}
+- {domain: .work.weixin.qq.com, httpOnly: false, name: wxpay.corpid, path: /, secure: false,
+  value: '1970325362991365'}
+- {domain: .work.weixin.qq.com, expiry: 1665045584, httpOnly: false, name: wwrtx.i18n_lan,
+  path: /, secure: false, value: zh}

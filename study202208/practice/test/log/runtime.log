@@ -1,0 +1,9 @@
+2022-08-19 17:21:14.452 | INFO     | practice.test.test_0818:test_cart:25 - 购物车
+2022-08-19 17:21:14.453 | INFO     | practice.test.test_0818:test_order:27 - 下单功能
+2022-08-19 17:21:14.456 | INFO     | practice.test.test_0818:test_case2:34 - class2
+2022-08-19 17:24:15.203 | INFO     | practice.test.test_0818:test_cart:25 - 购物车
+2022-08-19 17:24:15.204 | INFO     | practice.test.test_0818:test_order:27 - 下单功能
+2022-08-19 17:24:15.211 | INFO     | practice.test.test_0818:test_case2:34 - class2
+2022-08-19 17:25:19.373 | INFO     | practice.test.test_0818:test_cart:25 - 购物车
+2022-08-19 17:25:19.375 | INFO     | practice.test.test_0818:test_order:27 - 下单功能
+2022-08-19 17:25:19.384 | INFO     | practice.test.test_0818:test_case2:34 - class2

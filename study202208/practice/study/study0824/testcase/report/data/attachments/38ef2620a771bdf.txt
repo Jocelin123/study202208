@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_add.py:45 开始调用函数('文', 9.3, 'TypeError')

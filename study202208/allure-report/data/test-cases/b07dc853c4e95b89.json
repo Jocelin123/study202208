@@ -1,0 +1,136 @@
+{
+  "uid" : "b07dc853c4e95b89",
+  "name" : "test_skip",
+  "fullName" : "test.cases.add.test_add.TestAdd#test_skip",
+  "historyId" : "f5e363b51b5049021684fe27c7d0ba72",
+  "time" : {
+    "start" : 1660620753155,
+    "stop" : 1660620753155,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "('D:\\\\zj\\\\software\\\\pycharm\\\\PyCharm Community Edition 2021.1\\\\jbr\\\\bin\\\\zj\\\\PycharmProjects\\\\study202208\\\\test\\\\cases\\\\add\\\\test_add.py', 26, 'Skipped: for a reason!')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestAdd",
+    "time" : {
+      "start" : 1660620753061,
+      "stop" : 1660620753062,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestAdd",
+    "time" : {
+      "start" : 1660620753154,
+      "stop" : 1660620753154,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Skipped: for a reason!",
+    "statusTrace" : "('D:\\\\zj\\\\software\\\\pycharm\\\\PyCharm Community Edition 2021.1\\\\jbr\\\\bin\\\\zj\\\\PycharmProjects\\\\study202208\\\\test\\\\cases\\\\add\\\\test_add.py', 26, 'Skipped: for a reason!')",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec8ef3fe6c26f011",
+      "name" : "stdout",
+      "source" : "ec8ef3fe6c26f011.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestAdd::0",
+    "time" : {
+      "start" : 1660620753161,
+      "stop" : 1660620753161,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestAdd::0",
+    "time" : {
+      "start" : 1660620753155,
+      "stop" : 1660620753155,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test.cases.add"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BEO6NH7O"
+  }, {
+    "name" : "thread",
+    "value" : "11036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.cases.add.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b07dc853c4e95b89.json",
+  "parameterValues" : [ ]
+}

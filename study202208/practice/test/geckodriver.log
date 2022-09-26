@@ -1,0 +1,27 @@
+1661930703670	geckodriver	INFO	Listening on 127.0.0.1:52363
+1661930706716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofile24Ferl"
+1661930707240	Marionette	INFO	Marionette enabled
+1661930707245	Marionette	INFO	Listening on port 52377
+WebDriver BiDi listening on ws://localhost:52364
+Read port: 52377
+1661930707416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofile24Ferl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52364/devtools/browser/82927e8b-d250-408d-bdc4-1abf03353b4c
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2033-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661930712492	Marionette	INFO	Stopped listening on port 52377
+1662120587224	geckodriver	INFO	Listening on 127.0.0.1:51115
+1662120590040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51116" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileK0Ks6v"
+1662120590626	Marionette	INFO	Marionette enabled
+1662120590631	Marionette	INFO	Listening on port 51127
+WebDriver BiDi listening on ws://localhost:51116
+Read port: 51127
+1662120590807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lvy\\AppData\\Local\\Temp\\rust_mozprofileK0Ks6v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51116/devtools/browser/d061558e-949a-4d7e-943e-42b62fcd7814
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: http://litemall.hogwarts.ceshiren.com/static/js/chunk-5200fb0c.c148384a.js, line 1: TypeError: e.data is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://litemall.hogwarts.ceshiren.com."
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1662120604196	Marionette	INFO	Stopped listening on port 51127

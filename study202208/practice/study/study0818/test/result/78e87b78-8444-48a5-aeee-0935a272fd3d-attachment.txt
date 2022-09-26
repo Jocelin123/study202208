@@ -1,0 +1,4 @@
+[32mINFO    [0m test.log_util:base.py:11 开始计算
+[32mINFO    [0m test.log_util:test_div.py:25 输入数据:10,0.02,预期结果：500
+[32mINFO    [0m test.log_util:test_div.py:28 断言实际结果:500.0,预期结果：500
+[32mINFO    [0m test.log_util:base.py:13 结束计算

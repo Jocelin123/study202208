@@ -1,0 +1,381 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "加法模块测试success",
+    "children" : [ {
+      "name" : "testcaseadd1[【正向】2个整数相加，结果计算正确]",
+      "uid" : "4a244544930490f4",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661497761749,
+        "stop" : 1661497761750,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "1", "1" ]
+    }, {
+      "name" : "testcaseadd1[【正向】2个浮点数相加，结果计算正确]",
+      "uid" : "4f6b5c1f31fba542",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761784,
+        "stop" : 1661497761785,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "0.01", "-0.01", "0.02" ]
+    }, {
+      "name" : "testcaseadd1[【正向】整数与浮点数相加，结果计算正确]",
+      "uid" : "201baac6498871c0",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761791,
+        "stop" : 1661497761792,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "10.02", "10", "0.02" ]
+    }, {
+      "name" : "testcaseadd1[【边界】有效边界值相加，结果计算正确1]",
+      "uid" : "2d75d39bb6770147",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761798,
+        "stop" : 1661497761799,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "197.99", "98.99", "99" ]
+    }, {
+      "name" : "testcaseadd1[【边界】有效边界值相加，结果计算正确2]",
+      "uid" : "b1456f05910d7d3c",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761807,
+        "stop" : 1661497761808,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "197.99", "99", "98.99" ]
+    }, {
+      "name" : "testcaseadd1[【边界】有效边界值相加，结果计算正确3]",
+      "uid" : "1439db207430dc02",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761814,
+        "stop" : 1661497761815,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-197.99", "-98.99", "-99" ]
+    }, {
+      "name" : "testcaseadd1[【边界】有效边界值相加，结果计算正确4]",
+      "uid" : "8781f512ccab5789",
+      "parentUid" : "d35c3220de9775a7453a217dc496b940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761820,
+        "stop" : 1661497761820,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-197.99", "-99", "-98.99" ]
+    } ],
+    "uid" : "d35c3220de9775a7453a217dc496b940"
+  }, {
+    "name" : "加法模块测试tips",
+    "children" : [ {
+      "name" : "testcaseadd2[【边界】无效边界值相加，给出提示信息1]",
+      "uid" : "ce73a1f9d2e059de",
+      "parentUid" : "8d4f7ab11386c22b53cd3129b559e1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761825,
+        "stop" : 1661497761826,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "99.01", "0" ]
+    }, {
+      "name" : "testcaseadd2[【边界】无效边界值相加，给出提示信息2]",
+      "uid" : "6f4f7985b285e296",
+      "parentUid" : "8d4f7ab11386c22b53cd3129b559e1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761832,
+        "stop" : 1661497761833,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "-99.01", "-1" ]
+    }, {
+      "name" : "testcaseadd2[【边界】无效边界值相加，给出提示信息3]",
+      "uid" : "45815e046c4b827b",
+      "parentUid" : "8d4f7ab11386c22b53cd3129b559e1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761838,
+        "stop" : 1661497761839,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "2", "99.01" ]
+    }, {
+      "name" : "testcaseadd2[【边界】无效边界值相加，给出提示信息4]",
+      "uid" : "244434534900296e",
+      "parentUid" : "8d4f7ab11386c22b53cd3129b559e1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761844,
+        "stop" : 1661497761845,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "1", "-99.01" ]
+    } ],
+    "uid" : "8d4f7ab11386c22b53cd3129b559e1de"
+  }, {
+    "name" : "加法模块测试error",
+    "children" : [ {
+      "name" : "testcaseadd3[【类型】输入中文，给出提示信息1]",
+      "uid" : "652aa8d3ffc8b3c5",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761850,
+        "stop" : 1661497761851,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'TypeError'", "'文'", "9.3" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入中文，给出提示信息2]",
+      "uid" : "9edbac46f748def3",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761857,
+        "stop" : 1661497761858,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "4", "'字'" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入英文，给出提示信息1]",
+      "uid" : "4190eacbf56648f0",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761863,
+        "stop" : 1661497761864,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "'nu'", "0.2" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入英文，给出提示信息2]",
+      "uid" : "97f4b50da21551d8",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761869,
+        "stop" : 1661497761870,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "30", "'t'" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入特殊字符，给出提示信息1]",
+      "uid" : "2166a22afc80d50",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761875,
+        "stop" : 1661497761876,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "'*&'", "0.2" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入特殊字符，给出提示信息2]",
+      "uid" : "1fb21966d53e59fb",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761883,
+        "stop" : 1661497761884,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "21.45", "'@'" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入为空，给出提示信息1]",
+      "uid" : "f8f9559906fd6e14",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761889,
+        "stop" : 1661497761890,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "''", "20.93" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入为空，给出提示信息2]",
+      "uid" : "2a7ff170c72e83c6",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761895,
+        "stop" : 1661497761896,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "-3", "''" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入空格，给出提示信息1]",
+      "uid" : "84bad2d9f4ae2cb6",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761901,
+        "stop" : 1661497761902,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "' '", "3.14" ]
+    }, {
+      "name" : "testcaseadd3[【类型】输入空格，给出提示信息2]",
+      "uid" : "a43b5bd8e334fb63",
+      "parentUid" : "28ae55343654c8372053f22ae50ab4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661497761908,
+        "stop" : 1661497761909,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'参数大小超出范围'", "-90", "' '" ]
+    } ],
+    "uid" : "28ae55343654c8372053f22ae50ab4e1"
+  }, {
+    "name" : "testcasediv[1-1-1]",
+    "uid" : "44a130942f57f044",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661497761916,
+      "stop" : 1661497761916,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'1'", "'1'", "'1'" ]
+  }, {
+    "name" : "testcasediv[-0.01--0.02-0.5]",
+    "uid" : "e632883a13dda98",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661497761921,
+      "stop" : 1661497761921,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'0.5'", "'-0.01'", "'-0.02'" ]
+  }, {
+    "name" : "testcasediv[-0.01-0.02--0.5]",
+    "uid" : "b96e24ef869bf90f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661497761926,
+      "stop" : 1661497761926,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'-0.5'", "'-0.01'", "'0.02'" ]
+  }, {
+    "name" : "testcasediv[10-0.02-500]",
+    "uid" : "1f414158cf098ac9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661497761932,
+      "stop" : 1661497761932,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'500'", "'10'", "'0.02'" ]
+  }, {
+    "name" : "testcasediv[4-字-TypeError]",
+    "uid" : "c6fba5a41c0f210f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1661497763960,
+      "stop" : 1661497763960,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'TypeError'", "'4'", "'字'" ]
+  }, {
+    "name" : "testcasediv[文-9.3-TypeError]",
+    "uid" : "afbec4a429dff0a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1661497765977,
+      "stop" : 1661497765977,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'TypeError'", "'文'", "'9.3'" ]
+  }, {
+    "name" : "testcasediv[nu-0.2-TypeError]",
+    "uid" : "506b87bd16efad58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1661497768006,
+      "stop" : 1661497768006,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'TypeError'", "'nu'", "'0.2'" ]
+  } ]
+}

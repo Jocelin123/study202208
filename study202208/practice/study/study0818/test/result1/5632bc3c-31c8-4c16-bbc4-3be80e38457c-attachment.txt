@@ -1,0 +1,2 @@
+[32mINFO    [0m study202208.test.log_util:test_calculate.py:25 调用计算
+[32mINFO    [0m study202208.test.log_util:test_calculate.py:28 断言
