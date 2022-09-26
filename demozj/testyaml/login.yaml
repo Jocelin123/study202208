@@ -1,0 +1,13 @@
+testcase:
+      - element_info: login_btn
+        find_type: ID
+        operate_type: click
+        info: 打开登录对话框
+      - element_info: //*[@name="phone" and @type="text"]
+        find_type: XPATH
+        operate_type: send_keys
+        info: 输入手机号
+check:
+      -element_info: userProNick
+       find_type: ID
+       info: 成功登录
